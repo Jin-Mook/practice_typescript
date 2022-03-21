@@ -6,15 +6,10 @@
 // / <reference path="decorators/autobind.ts" />
 // / <reference path="components/project-input.ts" />
 // / <reference path="components/project-list.ts" />
-
 // es6 모듈 임포트
 import { ProjectList } from './components/project-list.js';
 import { ProjectInput } from './components/project-input.js';
-
-
-new ProjectInput()
-new ProjectList('active')
-new ProjectList('finished')
-
-
-
+new ProjectInput();
+new ProjectList('active');
+new ProjectList('finished');
+//# sourceMappingURL=app.js.map
